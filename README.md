@@ -1,5 +1,6 @@
 Virtual Pet Simulator Project
 
+This project is about a virtual pet simulater.
 Pet Creation -> Choosing a pet and naming a pet<br/>
 Pet Care Actions -> Feed, Play, Rest<br/>
 Pet Status Monitoring -> Hunger, Happiness, Health<br/>
