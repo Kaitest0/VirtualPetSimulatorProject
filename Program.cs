@@ -15,6 +15,8 @@ namespace VirtualPetSimulatorProject
         {
             static void Main()
             {
+                Console.WriteLine("Welcome to Virtual Pet Simulator"); // Welcome message
+              
                 /* Pet Creation */
                 Console.WriteLine("1. Cat");
                 Console.WriteLine("2. Dog ");
@@ -65,7 +67,7 @@ namespace VirtualPetSimulatorProject
                     while (validStatus)
                     {
                         Console.WriteLine();
-                        Console.WriteLine("Tracking time in hour: " + TrackingTimeInHour + ". Time slightly affects the pet's stats: hunger, happiness and health decrease");
+                        Console.WriteLine("Tracking time in hour: " + TrackingTimeInHour + ". Time slightly affects the pet's status : hunger increases over time, and happiness decreases slightly");
                         Console.WriteLine();
 
                         /* Action to do with pet */
